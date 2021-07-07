@@ -31,7 +31,26 @@ a:hover {
   position: fixed;
   text-align: center;
 }
+
+.main-nav-two {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+
 .nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.navtwo {
   display: flex;
   justify-content: space-around;
   font-weight: 700;
@@ -76,6 +95,7 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -84,10 +104,30 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
+
+.intro {
+  background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+
 .location {
   background-color: #222;
   color: yellow;
 }
+
+.text {
+  background-color: #222;
+  color: orange;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -98,6 +138,16 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
+.card-interests {
+  margin: 30px;
+  padding: 40px 40px 40px;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+
 .card:hover {
   border-color: #ff99ff;
 }
